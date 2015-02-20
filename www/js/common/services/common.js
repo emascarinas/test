@@ -2,7 +2,7 @@
 
 angular.module('mobile')
         .service('common', function () {
-            var baseRestUrl = 'https://infiniteenergy.com/mobile-services/';
+            var baseRestUrl = 'http//test.com/mobile-services/';
 
             return {
                 baseRestUrl: function () {
